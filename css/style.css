@@ -1,0 +1,75 @@
+*{
+    font-family: 'Rubik', sans-serif;
+
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/azul-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 45% 100%;
+    width: 100vw;
+    height: 100vh;
+   
+  }
+  
+  .row {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 40%; 
+  }
+  
+  .column {
+    width: 100%;
+  } 
+
+  .ul {
+    text-decoration-color: #ffffff;
+  }
+.footer{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  margin-left: 25%;
+  font-size: 12px;
+}
+.menu__linhas {
+  list-style-type: none;
+}
+
+.linhas__metro {
+width: 60vw;
+}
+
+.logo__metro {
+  height: max-content;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+.titulo {
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+.img__linhas {
+  background-image: url("../img/linhas.png");
+  background-size: 70%;
+  width: 1440px;
+  height: 200px;
+  background-repeat: no-repeat;
+ 
+}
+.link {
+color: #ffffff;
+padding-top: 20px;
+padding-left: 100px;
+}
+
+li {
+  padding-top: 10px;
+}
